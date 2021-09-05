@@ -1,6 +1,6 @@
 # メモリマップ
 
-## NDS9 Memory Map
+## NDS9メモリマップ
 
 ```
   00000000h  Instruction TCM (32KB) (not moveable) (mirror-able to 1000000h)
@@ -22,7 +22,7 @@
 
 ARM9のExceptionベクタは`FFFF_0000h`に存在しています。 IRQハンドラは`[DTCM+3FFCh]`にリダイレクトします。 (DTCM=Data TCM)
 
-## NDS7 Memory Map
+## NDS7メモリマップ
 
 ```
   00000000h  ARM7-BIOS (16KB)
@@ -62,7 +62,7 @@ Shared WRAMは`3000000h`から始まりますが、プログラムでは（ARM9�
 
 NDSモードでは未定義のI/Oポートは常に0となります。
 
-## Undefined Memory Regions
+## 未定義のメモリ領域について
 
 16MB blocks that do not contain any defined memory regions (or that contain only mapped TCM regions) are typically completely undefined.
 

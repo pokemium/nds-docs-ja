@@ -4,7 +4,7 @@
 
 ## Model
 
-![Original](../images/_hu3dcdcbab2213b1e05195e1b17e61ab65_308642_9832c3639b3eced23fea528eb7581b8a.webp)
+![Original](../images/_hu3dcdcbab2213b1e05195e1b17e61ab65_308642_9832c3639b3eced23fea528eb7581b8a.png)
 
 ![Lite](../images/_hu0e3fef77ee9527be4f5034f85f631974_308612_6a61d197f79e3051f45c3badc05a5790.webp)
 

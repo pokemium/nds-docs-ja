@@ -9,16 +9,25 @@ Nintendo DSについて、技術的な詳細を日本語でまとめたもので
 ### NDS
 
 - [仕様](spec.md)
+- [ハードウェア一覧](hardware.md)
 - [メモリマップ](memory.md)
 - [IOレジスタ](io.md)
 - [メモリアクセス時間](memory_timings.md)
+- 周辺機器
+  - [DMA](system/dma.md)
+  - [タイマー](system/timer.md)
+  - [キー入力](system/keypad.md)
+  - [タッチパネル](system/tsc.md)
+  - [電源制御](./system/power_control.md)
+  - [電源管理装置](./system/power_management_device.md)
+- [サウンド](sound/README.md)
 
 ### CPU
 
 - [ARM7](https://github.com/pokemium/gba-docs-ja/tree/main/arm7tdmi)
 - [ARM9](arm9.md)
-- [CP15](./cp15/cp15.md)
-  - [ID Codes](./cp15/id_codes.md)
+- [CP15](cp15/README.md)
+  - [ID Codes](cp15/id_codes.md)
 
 ### メモリ制御
 
@@ -47,12 +56,6 @@ NDSは2つの2Dビデオエンジンを備えていて、両方とも基本的�
 
 - [2Dビデオファイル](./video/files_2d.md)
 
-Display Power Control（およびDisplay Swap）、VRAMのアロケーションについては、こちらをご覧ください。
-
-- [電源制御](./system/power_control.md)
-- [電源管理装置](./system/power_management_device.md)
-- [メモリ制御 - VRAM](./memctl/vram.md)
-
 ### BIOS
 
 [gba-docs-ja](https://github.com/pokemium/gba-docs-ja) を参照してください
@@ -60,4 +63,4 @@ Display Power Control（およびDisplay Swap）、VRAMのアロケーション�
 ## 参考記事
 
 - [GBATEK](https://problemkaputt.de/gbatek.htm)
-
+- [mgba-emu/gbatek](https://github.com/mgba-emu/gbatek)
