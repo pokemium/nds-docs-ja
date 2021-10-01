@@ -60,6 +60,12 @@ NDSは2つの2Dビデオエンジンを備えていて、両方とも基本的�
 
 [gba-docs-ja](https://github.com/pokemium/gba-docs-ja) を参照してください
 
+## 関連するレポジトリ
+
+- [gb-docs-ja](https://github.com/pokemium/gb-docs-ja): GameBoyについて
+- [gba-docs-ja](https://github.com/pokemium/gba-docs-ja): GameBoy Advanceについて
+- [snes-docs-ja](https://github.com/pokemium/snes-docs-ja): スーパーファミコンについて
+
 ## 参考記事
 
 - [GBATEK](https://problemkaputt.de/gbatek.htm)
