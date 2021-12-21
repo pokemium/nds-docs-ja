@@ -18,8 +18,9 @@ Nintendo DSについて、技術的な詳細を日本語でまとめたもので
   - [タイマー](system/timer.md)
   - [キー入力](system/keypad.md)
   - [タッチパネル](system/tsc.md)
-  - [電源制御](./system/power_control.md)
-  - [電源管理装置](./system/power_management_device.md)
+  - [電源制御](system/power_control.md)
+  - [電源管理装置](system/power_management_device.md)
+  - [RTC](system/rtc.md)
 - [サウンド](sound/README.md)
 
 ### CPU
@@ -31,11 +32,11 @@ Nintendo DSについて、技術的な詳細を日本語でまとめたもので
 
 ### メモリ制御
 
-- [CacheとTCM](./memctl/cache_tcm.md)
-- [カートリッジとMain RAM](./memctl/cart_mainram.md)
-- [WRAM](./memctl/wram.md)
-- [VRAM](./memctl/vram.md)
-- [BIOS](./memctl/bios.md)
+- [CacheとTCM](memctl/cache_tcm.md)
+- [カートリッジとMain RAM](memctl/cart_mainram.md)
+- [WRAM](memctl/wram.md)
+- [VRAM](memctl/vram.md)
+- [BIOS](memctl/bios.md)
 
 ### グラフィック
 
